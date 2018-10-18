@@ -1,16 +1,35 @@
-<form action="action_page.php">
-    <div class="container">
-        <label>Username</label>
-        <input type="text" placeholder="username" name="username">
-        <br><br>
-        <label>Email</label>
-        <input type="email" placeholder="email" name="email">
-        <input type="radio" value="default" name=radio-input">
-        <br><br>
-        <label>Password</label>
-        <input type="password" name="password" required>
-        <br><br>
-        <label>Login</label>
-        <input type="submit" name="submit">
-    </div>
-</form>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <header>
+        <title>Profile</title>
+    </header>
+    <body>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="grid-container">
+            <div class="card">
+                <form action="index.html" method="GET">
+                    <label>Username</label>
+                    <input type="text" placeholder="username" name="username">
+                    <br><br>
+                    <label>Email</label>
+                    <input type="email" placeholder="email" name="email">
+                    <input type="radio" value="default" name=radio-input">
+                    <br><br>
+                    <label>Password</label>
+                    <input type="password" name="password" required>
+                    <br><br>
+                    <label>Login</label>
+                    <input type="submit" name="submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
