@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+    <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </header>
+<body>
+        <button onclick="myMove()"> move </button>
+
+    <div class="container">
+        <div>
+            <input type="text" id="toMove" placeholder="text"> 
+        </div>
+    </div>
+
+
+    <script>
+
+        var position = 0;
+        var element = document.getElementById("toMove"); 
+        function myMove() 
+        { 
+            position+=20; 
+            element.style.right = pos + 'px';     
+        }
+
+</script>
+</body>
+</html>
